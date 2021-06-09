@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator 1.0</title>
+  <link rel="icon" href="C:\Users\ag666\Documents\btech 4th sem\WEB designing\CLASS_WEB\Unit4class javascript\cal.png">
+  <script>
+      
+      var a,b;
+function add()
+    {
+        a = Number(document.getElementById("num1").value);
+        b = Number(document.getElementById("num2").value);
+        document.getElementById("result").value = a+b;
+        
+    }
+    function sub()
+    {
+        a = Number(document.getElementById("num1").value);
+        b = Number(document.getElementById("num2").value);
+        document.getElementById("result").value = a-b;
+        
+    }
+    function multiply()
+    {
+        a = Number(document.getElementById("num1").value);
+        b = Number(document.getElementById("num2").value);
+        document.getElementById("result").value = a*b;
+        
+    }
+    function divide()
+    {
+        a = Number(document.getElementById("num1").value);
+        b = Number(document.getElementById("num2").value);
+        document.getElementById("result").value = a/b;
+        
+    }
+    function squareroot_of_num1()
+    {
+        a = Number(document.getElementById("num1").value);
+        document.getElementById("result").value = Math.sqrt(a);
+        
+    }
+    function square_of_num1()
+    {
+        a = Number(document.getElementById("num1").value);
+        document.getElementById("result").value = a*a;
+        
+    }
+
+
+
+
+  </script>
+</head>
+
+<body  background = "C:\Users\ag666\Documents\i use pic in webexp2\2.jpg">
+<center>
+    <br><br><br><br><br><br><br><br>
+    <table border ="2" width ="400" align = 'center' bgcolor ='skyblue'>
+        
+        <tr bgcolor ="skyblue"><th colspan ="2"> <br> <font color ="navy blue" size = '6'>Arithmetic  Calculator </font> <br> <br> </th></tr>
+        <tr><td> Enter number 1: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td> <input id ="num1" type ='number'> <br></td> 
+        </tr>
+        <tr><td> Enter number2: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td> <input id ="num2" type ='number'> <br></td> 
+        </tr>
+       <tr align="center">
+           <td><input type="submit"  value="Add + "  onclick="add()" > &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+           <td><input type="submit" value = "subtract" onclick= "sub()" > </td>
+        </tr>
+        <tr align ='center'>
+            <td><input type="submit"  value = "multiply" onclick="multiply()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><input type="submit"  value="divide" onclick="divide()"> </td>
+        </tr>
+        <tr align ='center'>
+            <td><input type="submit"  value="squareroot_of_num1" onclick="squareroot_of_num1()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><input type="submit"  value="square_of_num1()" onclick="square_of_num1()"> </td>
+        </tr>
+        
+        
+        
+        <tr bgcolor="navy blue">
+ 
+            <td colspan="2">Result: <input id="result" disabled></td>  
+        </tr>     
+    </table>
+    
+</center>
+    
+    
+</body>
+</html>
