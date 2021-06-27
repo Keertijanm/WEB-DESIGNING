@@ -4,13 +4,13 @@
  
  
  
-Following webpages  are design 
+Following webpages or websites are design -
 
 
 
 1.layout1website
 
-![](layout website 1.png)
+![](layoutwebsite1.png)
  
 
 
