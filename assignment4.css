@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color:black; 
+    margin-top : 4px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+#menubox{
+    width: 220px;
+    height: 550px;
+    background-color:#2F4F4F;
+    margin-top: 0px;
+    position: relative;
+    box-shadow: 0px;
+    font-family: fantasy;
+   
+}
+#containerbox{
+    width: 1270px;
+    height: 460px;
+    margin-top: 0px;
+    background-color:#33ccff;
+   
+
+}
+#footerbox{
+    width: 1050px;
+    height: 90px;
+    margin-left: 220px;
+    background-color:gold;
+}
